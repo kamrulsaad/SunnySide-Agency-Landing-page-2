@@ -59,6 +59,7 @@ body {
             transition: 0.3s;
             cursor: pointer;
             display: none;
+            margin-right: 10px;
             &.active {
                 background: darken($white, 10%);
                 color: $dark_cyan;
@@ -223,6 +224,9 @@ body {
                     .inner {
                         margin-right: auto;
                         margin-left: 100px;
+                        @include lg-max{
+                            margin-left: auto;
+                        }
                     }
                 }
             }

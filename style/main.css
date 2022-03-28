@@ -418,6 +418,7 @@ body {
   transition: 0.3s;
   cursor: pointer;
   display: none;
+  margin-right: 10px;
 }
 .hero-section .main-navbar .burger-icon.active {
   background: #e6e6e6;
@@ -590,6 +591,11 @@ body {
 .about-section .about-row:nth-child(even) .about-box.about-box-text .inner {
   margin-right: auto;
   margin-left: 100px;
+}
+@media only screen and (max-width: 1024px) {
+  .about-section .about-row:nth-child(even) .about-box.about-box-text .inner {
+    margin-left: auto;
+  }
 }
 .about-section .about-row:nth-child(odd) .about-box.about-box-text .inner {
   margin-left: auto;
