@@ -1,0 +1,24 @@
+svg path {
+    fill: currentColor;
+}
+img {
+    width: 100%;
+}
+
+@mixin center-everything {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+@mixin valign () {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@function overlay($color, $opacity) {
+    @return rgba($color, $opacity);
+}
