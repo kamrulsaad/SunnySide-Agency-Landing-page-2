@@ -386,7 +386,7 @@ body {
 
 .hero-section {
   height: 100vh;
-  background: url(../../images/desktop/image-header.jpg) no-repeat center;
+  background: url(../images/desktop/image-header.jpg) no-repeat center;
   background-size: cover;
 }
 .hero-section .main-navbar {
